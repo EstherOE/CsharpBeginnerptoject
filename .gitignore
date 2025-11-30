@@ -1,52 +1,50 @@
-# Prerequisites
-*.d
+# Build output
+bin/
+obj/
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Rider and VS Code
+.idea/
+.vscode/
+*.sln.iml
 
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
+# .NET artificats
 *.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
 *.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
 *.pdb
+*.cache
+artifacts/
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+
+# User-specific files
+*.user
+*.suo
+*.userprefs
+
+# LOGS
+*.log
+
+# Environment files
+*.env
+
+
+# Mono
+*.pidb
+*.booproj
+
+# Visual Studio 2015/2017 cache/options directory
+.vs/
+
+
+# ASP.nET Scaffolding
+ScaffoldingReadMe.txt
+
+
+# DotNet Core
+project.lock.json
+project.fragment.lock.json
+artifacts 
+
+# Backup files
+*.bak
+*.tmp
+
